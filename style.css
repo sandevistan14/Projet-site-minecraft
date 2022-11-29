@@ -1,6 +1,10 @@
 body {
     background-image: url(https://www.seekpng.com/png/detail/36-361335_bad-version-of-minecraft-logo-illustration.png);
 }
+.logo{
+    width: 200px;
+    height : 60px;
+}
 
 :root {
     --hauteur-menu: 60px;
