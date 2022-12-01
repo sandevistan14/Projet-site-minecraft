@@ -1,4 +1,17 @@
 /******************************************************************************
+**************************       font       ***********************************
+******************************************************************************/
+
+@font-face{
+    font-family: "Minecraftfont";
+    src: url("minecraftfont/Minecraft.ttf");
+}
+@font-face {
+    font-family: "Minecraftiafont";
+    src: url("minecraftiafont/Minecraftia-Regular.ttf");
+}
+
+/******************************************************************************
 **************************       image      ***********************************
 ******************************************************************************/
 body {
@@ -25,14 +38,14 @@ p {
     background-image: url("bloccobblebircks3.jpg");
     text-align: left;
     font-size: 20px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Minecraftiafont";
     display: block;
     width: 80%;
     margin: auto;
     padding: 40px;
     height: 4000px;
-    color: white;
-    text-shadow: 5px 5px 4px #000000;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px #000000;
     font-weight: bold;
 
 }
@@ -40,13 +53,12 @@ p {
 /******************************************************************************
 **************************       Titre      ***********************************
 ******************************************************************************/
+
 .grandtitre {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 100px;
-    color: #000000;
+    font-family: "Minecraftiafont";
+    font-size: 80px;
+    color: #ffffff;
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: #000000;
     text-underline-offset: 5px;
     text-shadow: 2px 2px 2px #000000;
 }
@@ -64,7 +76,9 @@ p {
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Montserrat, sans-serif;
+    font-family: "Minecraftiafont";
+    font-size: 12px;
+
 }
 
 nav {
