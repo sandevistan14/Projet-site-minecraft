@@ -15,7 +15,7 @@
 **************************       image      ***********************************
 ******************************************************************************/
 body {
-    background-image: url("pohtodefondv2.png");
+    background-image: url("image/pohtodefondv2.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -35,7 +35,7 @@ img {
 **************************       Texte      ***********************************
 ******************************************************************************/
 article{
-    background-image: url("bloccobblebircks3.jpg");
+    background-image: url("image/bloccobblebircks3.jpg");
     text-align: left;
     font-family: "Minecraftiafont";
     display: block;
