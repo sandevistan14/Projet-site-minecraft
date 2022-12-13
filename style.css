@@ -90,9 +90,6 @@ form {
 ******************************************************************************/
 
 a.ancrage {
-    text-decoration: none;
-    font-size: 15px;
-    position: bottom;
     position: fixed;
     bottom: 5%;
     left: 95%
