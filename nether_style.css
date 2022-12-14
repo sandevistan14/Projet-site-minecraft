@@ -14,8 +14,6 @@ body {
     background-image: url("image/Netherrack.png");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
 }
 
 .logo {
@@ -101,6 +99,15 @@ img.ancrage {
     width: 50px;
     height: 50px;
 
+}
+
+/******************************************************************************
+**********************  Bouton changement style  ******************************
+******************************************************************************/
+
+img.change_style_sheet{
+    width: 50px;
+    height: 50px;
 }
 
 /******************************************************************************

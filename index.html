@@ -4,7 +4,8 @@
 <!-- head -->
 
 <head>
-        <link rel="stylesheet" href="style.css">
+        <script type="application/javascript" src="script.js"></script>
+        <link id="theme" rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" type="image/png" href="image/logo_minecfraft.png">
         <meta charset="utf-8">
         <title>TUTO MINECRAFT</title>
@@ -13,7 +14,6 @@
 <!-- body -->
 
 <body>
-        <script type="text/javascript" src="script.js"></script>
         <!-- menu -->
         <nav>
                 <ul>
@@ -21,7 +21,7 @@
                         <li>
 
                                 <a href="index.html">
-                                        <img class="logo" src="image/logolesbonstutosv2.png" alt="logo_lesbontuto">
+                                        <img class="logo" src="image/test_logoV3.png" alt="logo_lesbontuto">
                                 </a>
                         </li>
 
@@ -39,11 +39,15 @@
                         <li> <a href="https://www.youtube.com/channel/UCgk9OP7oTXk_jXWH6SOdzOg">Notre Chaine Youtube</a>
                         </li>
 
-                        <!-- a voir -->
-                        <li><a href="#">À propos</a></li>
-
                         <!-- formulaire -->
                         <li><a href="Contactez-nous.html">Contactez-nous</a></li>
+
+                        <!--Bouton pour changer le style de la page-->
+                        <li>
+                                <button onclick="toggleTheme()">
+                                        <img class="change_style_sheet" src="image/nether_portal.jpg">
+                                </button>
+                        </li>
                 </ul>
         </nav>
         <br>
