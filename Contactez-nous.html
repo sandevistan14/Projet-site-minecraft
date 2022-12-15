@@ -7,13 +7,17 @@
     <script type="application/javascript" src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="image/logo_minecfraft.png">
-    <meta charset="utf-8">
+    <!-- meta -->
+    <meta name="charset" content="utf-8" />
+    <meta name="author" content="Lestrelin Valentin, Lerouge robin" />
+    <meta name="description" content="Page consacré à a la prise de contact via un formulaire a remplir et a envoyé par mail" />
+
     <title>Contactez-nous</title>
 </head>
 
 <!-- body -->
 
-<body>
+<body id="jumphere">
 
     <!-- Menu de navigation -->
     <nav>
@@ -37,7 +41,7 @@
             <li><a href="Contactez-nous.html">Contactez-nous</a></li>
 
             <!--Bouton pour changer le style de la page-->
-            <li><button onclick="toggleTheme()">
+            <li><button class="nether_portal" onclick="toggleTheme()">
                     <img class="change_style_sheet" src="image/nether_portal.jpg">
                 </button></li>
         </ul>
@@ -53,20 +57,13 @@
         <form id="form" action="mailto:robin.l1405@gmail.com?content-type=text/html&amp;subject=Site%20Web"
             method="post" enctype="text/plain">
             <p>
-                <!-- Nom prenom -->
-                <label for="Nom Prenom">Nom Prénom</label><input id="Nom Prénom" type="text" name="Nom Prénom"
-                    value=" ">
-                <br>
-                <!-- adresse mail -->
-                <label for="Mail">Adresse Mail</label><input id="Mail" type="text" name="Mail" value=" ">
-                <br>
-                <!-- message -->
-                <label for="Message">Message</label><textarea name="liste jeux" rows="5" cols="50"></textarea><br>
+                Si vous souhaitez nous laisser un message...<br>
+                <label for="Message"></label><textarea name="Message" rows="5" cols="50"></textarea><br>
                 <!-- bouton envoie -->
-                <input type="submit" value="Envoyer">
+                <input value="Envoyer" type="submit">
+                <input value="Annuler" type="reset">
             </p>
         </form>
-
     </article>
 </body>
 

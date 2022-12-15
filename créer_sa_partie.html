@@ -7,13 +7,18 @@
     <script type="application/javascript" src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="image/logo_minecfraft.png">
-    <meta charset="utf-8">
+
+    <!-- meta -->
+    <meta name="charset" content="utf-8" />
+    <meta name="author" content="Lestrelin Valentin, Lerouge robin" />
+    <meta name="description" content="Page consacré a la partie du tuto sur comment bien crée sa partie" />
+
     <title>Créer sa partie</title>
 </head>
 
 <!-- body -->
 
-<body>
+<body id="jumphere">
     <!-- menu -->
     <nav>
         <ul>
@@ -41,7 +46,7 @@
             <li><a href="Contactez-nous.html">Contactez-nous</a></li>
 
             <!--Bouton pour changer le style de la page-->
-            <li><button onclick="toggleTheme()">
+            <li><button class="nether_portal" onclick="toggleTheme()">
                     <img class="change_style_sheet" src="image/nether_portal.jpg">
                 </button>
             </li>
@@ -53,9 +58,9 @@
     <h1 class="grandtitre"> créer sa partie </h1>
 
     <!-- ancrage -->
-    <a class="ancrage" href="créer_sa_partie.html">
+    <button class="ancrage" onclick="jump('jumphere')">
         <img class="ancrage" src="image/bouton_remontev2.png">
-    </a>
+    </button>
 
     <!-- contenue -->
     <article>

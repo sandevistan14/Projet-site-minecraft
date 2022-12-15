@@ -7,12 +7,19 @@
     <script type="application/javascript" src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="image/logo_minecfraft.png">
+
+    <!-- meta -->
+    <meta name="charset" content="utf-8" />
+    <meta name="author" content="Lestrelin Valentin, Lerouge robin" />
+    <meta name="description" content="Page consacré au tuto sur les meilleurs parametre a mettre avant de débuter une partie" />
+
+
     <title> Tuto | Les paramètres de jeu optimaux </title>
 </head>
 
 <!-- body -->
 
-<body>
+<body id="jumphere">
     <!-- menu -->
     <nav>
         <ul>
@@ -40,7 +47,7 @@
             <li><a href="Contactez-nous.html">Contactez-nous</a></li>
 
             <!--Bouton pour changer le style de la page-->
-            <li><button onclick="toggleTheme()">
+            <li><button class="nether_portal" onclick="toggleTheme()">
                     <img class="change_style_sheet" src="image/nether_portal.jpg">
                 </button>
             </li>
@@ -51,9 +58,9 @@
     <h1 class="grandtitre">Les 5 paramètres à mettre sur minecraft</h1>
 
     <!-- ancrage -->
-    <a class="ancrage" href="Les_bons_paramètres_de_jeu.html">
-        <img class="ancrage" src="image/bouton_remontev2.png">
-    </a>
+    <button class="ancrage" onclick="jump('jumphere')">
+        <img clclass="ancrage" c="image/bouton_remontev2.png">
+    </button>
 
     <!-- article -->
     <article>

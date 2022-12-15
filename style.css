@@ -93,7 +93,7 @@ form {
 **************************      ancrage     ***********************************
 ******************************************************************************/
 
-a.ancrage {
+button.ancrage {
     position: fixed;
     bottom: 5%;
     left: 95%
@@ -112,6 +112,12 @@ img.ancrage {
 img.change_style_sheet{
     width: 50px;
     height: 50px;
+}
+
+button.nether_portal{
+    padding-top: 1.5%;
+    border: 0px;
+    background: none;
 }
 
 /******************************************************************************
