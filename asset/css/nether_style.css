@@ -3,20 +3,15 @@
 ******************************************************************************/
 
 @font-face {
-    font-family: "Minecraftfont";
-    src: url("minecraftfont/Minecraft.ttf");
-}
-
-@font-face {
     font-family: "Minecraftiafont";
-    src: url("minecraftiafont/Minecraftia-Regular.ttf");
+    src: url("../minecraftiafont/Minecraftia-Regular.ttf");
 }
 
 /******************************************************************************
 **************************       image      ***********************************
 ******************************************************************************/
 body {
-    background-image: url("image/pohtodefondv2.png");
+    background-image: url("../image/Netherrack.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -36,14 +31,14 @@ img {
 **************************       Texte      ***********************************
 ******************************************************************************/
 article {
-    background-image: url("image/bloccobblebircks3.jpg");
+    background-image: url("../image/nether_brick.png");
     text-align: left;
     font-family: "Minecraftiafont";
     display: block;
     width: 80%;
     margin: auto;
     padding: 40px;
-    height: auto;
+    height: 100%;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 3px #000000;
 }
@@ -94,9 +89,12 @@ form {
 ******************************************************************************/
 
 button.ancrage {
+    cursor: pointer;
     position: fixed;
     bottom: 5%;
-    left: 95%
+    left: 95%;
+    border: 0px;
+    background: none;
 }
 
 img.ancrage {
@@ -115,6 +113,7 @@ img.change_style_sheet{
 }
 
 button.nether_portal{
+    cursor: pointer;
     padding-top: 1.5%;
     border: 0px;
     background: none;
@@ -154,7 +153,7 @@ nav ul {
 }
 
 nav>ul>li {
-    background-color: rgb(129, 202, 248);
+    background-image: url("../image/lava_texture.jpg");
     position: relative;
     height: 100%;
     flex: 1;
@@ -184,7 +183,7 @@ li a {
     margin-top: var(--hauteur-menu);
     width: 100%;
     text-align: left;
-    background-color: rgb(129, 202, 248);
+    background-image: url("../image/lava_texture.jpg");
     border-radius: 2px;
     overflow: hidden;
     max-height: 0;
@@ -200,11 +199,11 @@ li a {
 
 nav>ul>li:hover>a {
     transition: 0.5s;
-    color: #2169EC;
+    color: #d57105;
 }
 
 .sous-menu>li:hover {
-    background-color: rgba(33, 105, 236, 0.3);
+    background-color: rgba(225, 117, 15, 0.3);
 }
 
 .sous-menu>li:hover>a {
@@ -228,7 +227,7 @@ nav>ul>li:hover>a {
 @keyframes apparitionSousMenu {
     0% {
         box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0);
-        border-top: 3px solid rgb(129, 202, 248);
+        border-top: 3px solid rgb(140, 70, 4);
     }
 
     30% {
@@ -237,7 +236,7 @@ nav>ul>li:hover>a {
 
     100% {
         max-height: 50em;
-        border-top: 3px solid #2169EC;
+        border-top: 3px solid rgb(140, 70, 4);
         box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
     }
 }

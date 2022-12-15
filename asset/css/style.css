@@ -4,14 +4,14 @@
 
 @font-face {
     font-family: "Minecraftiafont";
-    src: url("minecraftiafont/Minecraftia-Regular.ttf");
+    src: url("../minecraftiafont/Minecraftia-Regular.ttf");
 }
 
 /******************************************************************************
 **************************       image      ***********************************
 ******************************************************************************/
 body {
-    background-image: url("image/Netherrack.png");
+    background-image: url("../image/pohtodefondv2.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,14 +31,14 @@ img {
 **************************       Texte      ***********************************
 ******************************************************************************/
 article {
-    background-image: url("image/nether_brick.png");
+    background-image: url("../image/bloccobblebircks3.jpg");
     text-align: left;
     font-family: "Minecraftiafont";
     display: block;
     width: 80%;
     margin: auto;
     padding: 40px;
-    height: 100%;
+    height: auto;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 3px #000000;
 }
@@ -81,18 +81,20 @@ h1.grandtitre {
 ******************************************************************************/
 
 form {
-    text-align: left;
-    margin: 4%;
+    text-align: center;
 }
 
 /******************************************************************************
 **************************      ancrage     ***********************************
 ******************************************************************************/
 
-a.ancrage {
+button.ancrage {
+    cursor: pointer;
     position: fixed;
     bottom: 5%;
-    left: 95%
+    left: 95%;
+    border: 0px;
+    background: none;
 }
 
 img.ancrage {
@@ -111,7 +113,7 @@ img.change_style_sheet{
 }
 
 button.nether_portal{
-    cursor: crosshair;
+    cursor: pointer;
     padding-top: 1.5%;
     border: 0px;
     background: none;
@@ -151,7 +153,7 @@ nav ul {
 }
 
 nav>ul>li {
-    background-image: url("image/lava_texture.jpg");
+    background-color: rgb(129, 202, 248);
     position: relative;
     height: 100%;
     flex: 1;
@@ -181,7 +183,7 @@ li a {
     margin-top: var(--hauteur-menu);
     width: 100%;
     text-align: left;
-    background-image: url("image/lava_texture.jpg");
+    background-color: rgb(129, 202, 248);
     border-radius: 2px;
     overflow: hidden;
     max-height: 0;
@@ -197,11 +199,11 @@ li a {
 
 nav>ul>li:hover>a {
     transition: 0.5s;
-    color: #d57105;
+    color: #2169EC;
 }
 
 .sous-menu>li:hover {
-    background-color: rgba(225, 117, 15, 0.3);
+    background-color: rgba(33, 105, 236, 0.3);
 }
 
 .sous-menu>li:hover>a {
@@ -225,7 +227,7 @@ nav>ul>li:hover>a {
 @keyframes apparitionSousMenu {
     0% {
         box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0);
-        border-top: 3px solid rgb(140, 70, 4);
+        border-top: 3px solid rgb(129, 202, 248);
     }
 
     30% {
@@ -234,7 +236,7 @@ nav>ul>li:hover>a {
 
     100% {
         max-height: 50em;
-        border-top: 3px solid rgb(140, 70, 4);
+        border-top: 3px solid #2169EC;
         box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
     }
 }
