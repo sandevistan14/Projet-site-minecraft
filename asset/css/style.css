@@ -45,7 +45,7 @@ article {
     margin: auto;
     padding: 40px;
     height: auto;
-    color: rgb(255, 255, 255);
+    color: #8AC149;
     text-shadow: 3px 3px 3px #000000;
 }
 
@@ -85,7 +85,7 @@ strong {
 h1.grandtitre {
     font-family: "Minecraftiafont";
     font-size: 80px;
-    color: #ffffff;
+    color: #8AC149;
     text-align: center;
     text-underline-offset: 5px;
     text-shadow: 2px 2px 2px #000000;
