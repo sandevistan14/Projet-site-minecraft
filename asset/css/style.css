@@ -26,6 +26,12 @@ img {
     height: 200px;
 }
 
+img.tnt {
+    width: 300px;
+    height: 200px;
+}
+
+
 
 /******************************************************************************
 **************************       Texte      ***********************************
@@ -116,12 +122,12 @@ img.ancrage {
 **********************  Bouton changement style  ******************************
 ******************************************************************************/
 
-img.change_style_sheet{
+img.change_style_sheet {
     width: 50px;
     height: 50px;
 }
 
-button.nether_portal{
+button.nether_portal {
     cursor: pointer;
     padding-top: 1.5%;
     border: 0px;
