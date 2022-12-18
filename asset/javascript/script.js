@@ -3,13 +3,10 @@
 ******************************************************************************/
 
 function toggleTheme() {
-    // Obtains an array of all <link>
-    // elements.
-    // Select your element using indexing.
+
     var theme = document.getElementsByTagName('link')[0];
     var image = document.getElementById('ancrage_img');
-    // Change the value of href attribute
-    // to change the css sheet.
+
     if (theme.getAttribute('href') == '../css/style.css') {
         theme.setAttribute('href', '../css/nether_style.css');
         image.setAttribute('src', '../image/bouton_remonte_nether.png')
@@ -25,13 +22,10 @@ function jump(h) {
 }
 
 function toggleTheme2() {
-    // Obtains an array of all <link>
-    // elements.
-    // Select your element using indexing.
+
     var theme = document.getElementsByTagName('link')[0];
     var image = document.getElementById('ancrage_img');
-    // Change the value of href attribute
-    // to change the css sheet.
+
     if (theme.getAttribute('href') == 'asset/css/style.css') {
         theme.setAttribute('href', 'asset/css/nether_style.css');
         image.setAttribute('src', 'asset/image/bouton_remonte_nether.png')
